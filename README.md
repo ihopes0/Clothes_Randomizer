@@ -29,7 +29,7 @@ to discuss what you would like to change.
 Credits to a good friend of mine - Alexander Jinkov (vk.com/lafayette1017) who helped me to solve the MacOS and Windows compatibility problem.
 Thank tou for your time bro!
 
-##License
+## License
 
 The MIT License (MIT)
 
