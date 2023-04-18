@@ -77,8 +77,8 @@ def main():
 
     window = tk.Tk()
     window.title("Clothes randomizer v1.0 by ihopes0")
-    window.columnconfigure([0, 1], weight=1, minsize=100)
-    window.rowconfigure(0, weight=1, minsize=100)
+    window.columnconfigure([0, 1], weight=1, minsize=400)
+    window.rowconfigure(0, weight=1, minsize=300)
     frm_left = tk.Frame(window)
     frm_left.grid(row=0, column=0)
     frm_right = tk.Frame(window)
@@ -98,7 +98,7 @@ def main():
         column=0,
         padx=10
     )
-    cnv_top = tk.Canvas(master=frm_right, width=300, height=300)
+    cnv_top = tk.Canvas(master=frm_right)
     cnv_top.pack(anchor=tk.CENTER, expand=1)
     cnv_tishka = tk.Canvas(master=frm_right)
     cnv_tishka.pack(anchor=tk.CENTER, expand=1)
